@@ -1,0 +1,24 @@
+{
+  "name": "cool-cat-ideas-code",
+  "displayName": "Cool Cat Ideas Code",
+  "description": "Syntax coloring and editor colors used in Cool Cat Ideas code examples.",
+  "version": "1.0.1",
+  "publisher": "coolcatideas",
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": ["Themes"],
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/cool-cat-ideas/cool-cat-ideas-code.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cool Cat Ideas Code",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cool-cat-ideas-code-color-theme.json"
+      }
+    ]
+  }
+}
